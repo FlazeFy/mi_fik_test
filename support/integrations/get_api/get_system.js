@@ -2,7 +2,7 @@
 import { generateAuthToken } from '../../components/generate'
 import '../../components/template'
 
-describe('MI-FIK API Testing - Help', () => {
+describe('MI-FIK API Testing - System', () => {
     // Template
     const method = 'get'
     const token = generateAuthToken("hardcode")
