@@ -5,7 +5,7 @@ export const  generateAuthToken= (type) => {
         // Username : testerlecturer
         // Pass : tester123
         // Signed in at 26/1/24 17:49 WIB
-        res = "2571|GQzUwoXKgA2pjZ4EGWddVIn0k98exAhRG3hFjCH5"
+        res = "2576|oVI8FnDGSDiCDvsVwjhUkh0EhQKr47LNXzGxmTV6"
     }
 
     return res
