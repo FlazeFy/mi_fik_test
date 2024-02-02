@@ -11,9 +11,12 @@ Cypress.Commands.add('templateGet', (obj, is_paginate) => {
     // Test
     expect(obj.status).to.equal(200)
     expect(obj.body.message).to.be.a('string')
-    expect(obj.body.data).to.be.a(dataType)
 
-    if(is_paginate){
+    if(is_paginate == false){
+        expect(obj.body.data).to.be.a(dataType)
+    }
+
+    if(is_paginate == true){
         expect(obj.body.data.data).to.be.a('array')
     }
 });
