@@ -20,7 +20,7 @@ describe('MI-FIK API Testing - Attendance', () => {
             }
         }).as(method + 'AllAttendance')
         cy.get('@' + method + 'AllAttendance').then(sys => {
-            cy.templateGet(sys, true)
+            cy.templateGet(sys, false)
         })
     })
 })
